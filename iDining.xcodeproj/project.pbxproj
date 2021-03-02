@@ -16,6 +16,8 @@
 		3F9D44BD25EDD89C000206E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D44BB25EDD89C000206E5 /* LaunchScreen.storyboard */; };
 		3F9D44C825EDD89D000206E5 /* iDiningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D44C725EDD89D000206E5 /* iDiningTests.swift */; };
 		3F9D44D325EDD89D000206E5 /* iDiningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D44D225EDD89D000206E5 /* iDiningUITests.swift */; };
+		3F9D44EC25EDDA87000206E5 /* iDine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D44EB25EDDA87000206E5 /* iDine.swift */; };
+		3F9D44F125EDDAB2000206E5 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D44F025EDDAB2000206E5 /* menu.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		3F9D44CE25EDD89D000206E5 /* iDiningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iDiningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F9D44D225EDD89D000206E5 /* iDiningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDiningUITests.swift; sourceTree = "<group>"; };
 		3F9D44D425EDD89D000206E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F9D44EB25EDDA87000206E5 /* iDine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDine.swift; sourceTree = "<group>"; };
+		3F9D44F025EDDAB2000206E5 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,12 +106,14 @@
 			isa = PBXGroup;
 			children = (
 				3F9D44AD25EDD88F000206E5 /* AppDelegate.swift */,
+				3F9D44EB25EDDA87000206E5 /* iDine.swift */,
 				3F9D44AF25EDD88F000206E5 /* SceneDelegate.swift */,
 				3F9D44B125EDD88F000206E5 /* ViewController.swift */,
 				3F9D44B325EDD88F000206E5 /* Main.storyboard */,
 				3F9D44B925EDD89C000206E5 /* Assets.xcassets */,
 				3F9D44BB25EDD89C000206E5 /* LaunchScreen.storyboard */,
 				3F9D44BE25EDD89C000206E5 /* Info.plist */,
+				3F9D44F025EDDAB2000206E5 /* menu.json */,
 				3F9D44B625EDD88F000206E5 /* iDining.xcdatamodeld */,
 			);
 			path = iDining;
@@ -236,6 +242,7 @@
 			files = (
 				3F9D44BD25EDD89C000206E5 /* LaunchScreen.storyboard in Resources */,
 				3F9D44BA25EDD89C000206E5 /* Assets.xcassets in Resources */,
+				3F9D44F125EDDAB2000206E5 /* menu.json in Resources */,
 				3F9D44B525EDD88F000206E5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F9D44EC25EDDA87000206E5 /* iDine.swift in Sources */,
 				3F9D44B225EDD88F000206E5 /* ViewController.swift in Sources */,
 				3F9D44AE25EDD88F000206E5 /* AppDelegate.swift in Sources */,
 				3F9D44B825EDD88F000206E5 /* iDining.xcdatamodeld in Sources */,
