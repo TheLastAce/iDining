@@ -20,6 +20,8 @@
 		3F9D44F125EDDAB2000206E5 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D44F025EDDAB2000206E5 /* menu.json */; };
 		3F9D44F625EF3509000206E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D44F525EF3509000206E5 /* ContentView.swift */; };
 		3F9D44FB25EF3514000206E5 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D44FA25EF3514000206E5 /* ItemDetail.swift */; };
+		3F9D450025F5B388000206E5 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D44FF25F5B388000206E5 /* OrderView.swift */; };
+		3F9D450525F5B3ED000206E5 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D450425F5B3ED000206E5 /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		3F9D44F025EDDAB2000206E5 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 		3F9D44F525EF3509000206E5 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3F9D44FA25EF3514000206E5 /* ItemDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		3F9D44FF25F5B388000206E5 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		3F9D450425F5B3ED000206E5 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 				3F9D44EB25EDDA87000206E5 /* iDine.swift */,
 				3F9D44F525EF3509000206E5 /* ContentView.swift */,
 				3F9D44FA25EF3514000206E5 /* ItemDetail.swift */,
+				3F9D44FF25F5B388000206E5 /* OrderView.swift */,
+				3F9D450425F5B3ED000206E5 /* CheckoutView.swift */,
 				3F9D44AD25EDD88F000206E5 /* AppDelegate.swift */,
 				3F9D44AF25EDD88F000206E5 /* SceneDelegate.swift */,
 				3F9D44B125EDD88F000206E5 /* ViewController.swift */,
@@ -279,8 +285,10 @@
 				3F9D44B225EDD88F000206E5 /* ViewController.swift in Sources */,
 				3F9D44F625EF3509000206E5 /* ContentView.swift in Sources */,
 				3F9D44AE25EDD88F000206E5 /* AppDelegate.swift in Sources */,
+				3F9D450025F5B388000206E5 /* OrderView.swift in Sources */,
 				3F9D44B825EDD88F000206E5 /* iDining.xcdatamodeld in Sources */,
 				3F9D44B025EDD88F000206E5 /* SceneDelegate.swift in Sources */,
+				3F9D450525F5B3ED000206E5 /* CheckoutView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
