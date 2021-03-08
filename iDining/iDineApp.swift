@@ -1,8 +1,8 @@
 //
-//  iDine.swift
+//  File.swift
 //  iDining
 //
-//  Created by Student on 3/1/21.
+//  Created by Student on 3/7/21.
 //
 
 import SwiftUI
@@ -18,4 +18,3 @@ struct iDineApp: App {
         }
     }
 }
-
