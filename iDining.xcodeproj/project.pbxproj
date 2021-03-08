@@ -22,6 +22,11 @@
 		3F9D44FB25EF3514000206E5 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D44FA25EF3514000206E5 /* ItemDetail.swift */; };
 		3F9D450025F5B388000206E5 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D44FF25F5B388000206E5 /* OrderView.swift */; };
 		3F9D450525F5B3ED000206E5 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D450425F5B3ED000206E5 /* CheckoutView.swift */; };
+		3F9D450A25F5B446000206E5 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D450925F5B446000206E5 /* MainView.swift */; };
+		3F9D450F25F5B479000206E5 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D450E25F5B479000206E5 /* ItemRow.swift */; };
+		3F9D451725F5B4A2000206E5 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D451625F5B4A2000206E5 /* Helper.swift */; };
+		3F9D451C25F5B4C4000206E5 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D451B25F5B4C4000206E5 /* Menu.swift */; };
+		3F9D452125F5B4E4000206E5 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D452025F5B4E4000206E5 /* Order.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +68,11 @@
 		3F9D44FA25EF3514000206E5 /* ItemDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 		3F9D44FF25F5B388000206E5 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		3F9D450425F5B3ED000206E5 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		3F9D450925F5B446000206E5 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		3F9D450E25F5B479000206E5 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		3F9D451625F5B4A2000206E5 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		3F9D451B25F5B4C4000206E5 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		3F9D452025F5B4E4000206E5 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +128,11 @@
 				3F9D44FA25EF3514000206E5 /* ItemDetail.swift */,
 				3F9D44FF25F5B388000206E5 /* OrderView.swift */,
 				3F9D450425F5B3ED000206E5 /* CheckoutView.swift */,
+				3F9D450925F5B446000206E5 /* MainView.swift */,
+				3F9D450E25F5B479000206E5 /* ItemRow.swift */,
+				3F9D451625F5B4A2000206E5 /* Helper.swift */,
+				3F9D451B25F5B4C4000206E5 /* Menu.swift */,
+				3F9D452025F5B4E4000206E5 /* Order.swift */,
 				3F9D44AD25EDD88F000206E5 /* AppDelegate.swift */,
 				3F9D44AF25EDD88F000206E5 /* SceneDelegate.swift */,
 				3F9D44B125EDD88F000206E5 /* ViewController.swift */,
@@ -283,12 +298,17 @@
 				3F9D44FB25EF3514000206E5 /* ItemDetail.swift in Sources */,
 				3F9D44EC25EDDA87000206E5 /* iDine.swift in Sources */,
 				3F9D44B225EDD88F000206E5 /* ViewController.swift in Sources */,
+				3F9D450A25F5B446000206E5 /* MainView.swift in Sources */,
 				3F9D44F625EF3509000206E5 /* ContentView.swift in Sources */,
 				3F9D44AE25EDD88F000206E5 /* AppDelegate.swift in Sources */,
+				3F9D452125F5B4E4000206E5 /* Order.swift in Sources */,
 				3F9D450025F5B388000206E5 /* OrderView.swift in Sources */,
 				3F9D44B825EDD88F000206E5 /* iDining.xcdatamodeld in Sources */,
+				3F9D450F25F5B479000206E5 /* ItemRow.swift in Sources */,
+				3F9D451C25F5B4C4000206E5 /* Menu.swift in Sources */,
 				3F9D44B025EDD88F000206E5 /* SceneDelegate.swift in Sources */,
 				3F9D450525F5B3ED000206E5 /* CheckoutView.swift in Sources */,
+				3F9D451725F5B4A2000206E5 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
