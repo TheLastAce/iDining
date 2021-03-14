@@ -1,19 +1,19 @@
+////
+////  ViewController.swift
+////  iDining
+////
+////  Created by Student on 3/1/21.
+////
 //
-//  ViewController.swift
-//  iDining
+//import UIKit
 //
-//  Created by Student on 3/1/21.
+//class ViewController: UIViewController {
 //
-
-import UIKit
-
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-// this class is super useless
-
-}
-
+//    override func viewDidLoad() {
+//        super.viewDidLoad()
+//        // Do any additional setup after loading the view.
+//    }
+//// this class is super useless
+//
+//}
+//
