@@ -129,13 +129,11 @@
 				3F9D451625F5B4A2000206E5 /* Helper.swift */,
 				3F9D451B25F5B4C4000206E5 /* Menu.swift */,
 				3F9D452025F5B4E4000206E5 /* Order.swift */,
-				3F9D44AD25EDD88F000206E5 /* AppDelegate.swift */,
-				3F9D44AF25EDD88F000206E5 /* SceneDelegate.swift */,
-				3F9D44B125EDD88F000206E5 /* ViewController.swift */,
+				3F9D44F025EDDAB2000206E5 /* menu.json */,
 				3F9D452525F5B525000206E5 /* Assets.xcassets */,
 				3F9D44BE25EDD89C000206E5 /* Info.plist */,
-				3F9D44F025EDDAB2000206E5 /* menu.json */,
 				3F9D44B625EDD88F000206E5 /* iDining.xcdatamodeld */,
+				3FD60206263A5034008E5887 /* Do I need this? */,
 			);
 			path = iDining;
 			sourceTree = "<group>";
@@ -156,6 +154,16 @@
 				3F9D44D425EDD89D000206E5 /* Info.plist */,
 			);
 			path = iDiningUITests;
+			sourceTree = "<group>";
+		};
+		3FD60206263A5034008E5887 /* Do I need this? */ = {
+			isa = PBXGroup;
+			children = (
+				3F9D44AD25EDD88F000206E5 /* AppDelegate.swift */,
+				3F9D44AF25EDD88F000206E5 /* SceneDelegate.swift */,
+				3F9D44B125EDD88F000206E5 /* ViewController.swift */,
+			);
+			path = "Do I need this?";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
